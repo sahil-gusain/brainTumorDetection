@@ -45,3 +45,7 @@ geckodriver.log
 
 # for Jupytext ignoring ipynb files
 *.ipynb
+
+node_modules/*
+Data/*
+testing/*
