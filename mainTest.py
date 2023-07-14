@@ -15,7 +15,7 @@ img=np.array(img)
 
 input_img=np.expand_dims(img, axis=0)
 
-result=predict_x=model.predict(input_img)
+result=model.predict(input_img)
 classes_x=np.argmax(result,axis=1)
 print(classes_x)
 
